@@ -1,0 +1,280 @@
+ID: TC001. 
+
+New User Registration in Generic Shop. Just another web shop 
+
+Prerequisites: 
+
+A properly configured computer connected to the Internet, an open home page https://skleptest.pl 
+by an unregistered and unlogged user in Microsoft Edge 
+
+Steps to follow: 
+
+ 
+
+1. Click on 'Account' 
+2. Page My account – Generic Shop (skleptest.pl) is displaying 
+3. Filling in the fields ‘Register', 'username or email address', 'password' and clicking the red 
+'Register' button 
+
+
+ 
+
+Expected result: 
+
+Registered and logged in new user - My account – Generic Shop (skleptest.pl) page is displayed 
+
+ 
+
+ 
+
+ 
+
+ID: TC002 
+
+Registered user logging in to Generic Shop. Just another web shop 
+
+Prerequisites: 
+
+A properly configured computer connected to the Internet, an open home page https://skleptest.pl 
+by a non-logged-in user in Google Chrome 
+
+ 
+
+Steps to follow: 
+
+1. Click on 'Account' 
+
+
+ 2. Page My account – Generic Shop (skleptest.pl) is displaying 
+
+ 3. Filling in the fields ‘Login', 'username or email address', 'password' and clicking the red 
+'Login' button 
+
+ 
+Expected result: 
+
+User logged in – the page My account – Generic Shop (skleptest.pl) is displaying 
+
+ 
+
+ 
+
+
+ID: TC003 
+
+Verification of the 'Carousel' element – scrolling through the image gallery of 'Product Categories' of 
+the Generic Shop. Just another web shop 
+
+Prerequisites: 
+
+A properly configured computer connected to the Internet, an open home page https://skleptest.pl 
+by a non-logged-in user in Google Chrome 
+
+Steps to follow: 
+
+1. Scrolling down to the 'All Black Tops' under red bar with 'Free Shipping', 'Call Us Anytime', 'Our 
+Location' 
+
+2. Visible image gallery with arrow buttons on the right side in one line pointing left and right 
+
+3. I press any number of times on the left and right arrows 
+
+Expected result: 
+
+Depending on the arrow pressed, the image gallery scrolls left or right 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ID: TC004 
+
+Generic Shop. Just another web shop – 'Detailed Product Page' – correct display of the subpage on 
+the example of the field element quantity increase/decrease 
+
+Prerequisites: 
+
+Properly configured computer connected to the Internet, open home page https://skleptest.pl by 
+the logged-in user in Microsoft Edge 
+
+Steps to follow: 
+
+1. Scroll down to 'All Black Tops' below the red bar where 'Free Shipping', 'Call Us Anytime', 'Our 
+Location' are located and click on the product 'Little Black Top' to see the details 
+
+2. A detailed product page is displayed with a quantity field that defaults to '1' and '+' and '-' on the 
+sides for increasing/changing 
+
+3. I press '+' to get the maximum available quantity of product and then click '-' the minimum 
+available quantity of product to order 
+
+Expected result: 
+
+A label is displayed with a description of the maximum quantity available for ordering, and then after 
+using '-' the minimum quantity takes the value '1' 
+
+ 
+
+
+ 
+
+ID: TC005 
+
+Negative test case of the 'Search Engine' component of the Generic Shop e-commerce application. 
+Just another web shop 
+
+Prerequisites: 
+
+A properly configured computer connected to the Internet, an open home page https://skleptest.pl 
+by a non-logged-in user in Google Chrome 
+
+Steps to follow: 
+
+1. Click on the black 'Search' box with a slate icon at the top of the homepage 
+
+2. The cursor appears in the 'Search' field 
+
+3. Type the word 'brick' and press 'enter' or 'slate' 
+
+Expected result: 
+
+It displays a large inscription 'Nothing Found' with a detailed description below in my smaller letters 
+
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+ID: TC006 
+
+Positive test case of the 'Search Engine' component of the Generic Shop e-commerce application. 
+Just another web shop 
+
+Prerequisites: 
+
+Properly configured computer connected to the Internet, open home page https://skleptest.pl by 
+the logged-in user in Microsoft Edge 
+
+Steps to follow: 
+
+1. Click on the black 'Search' box with a slate icon at the top of the homepage 
+
+2. The cursor appears in the 'Search' field 
+
+3. Type the word 'Shoes' and press 'enter' or 'slate' 
+
+Expected result: 
+
+
+A large inscription 'Search Results For: Shoes' appears with the items of available products below 
+
+ 
+
+ID: TC007 
+
+'Shopping cart' in the Generic Shop e-commerce application. Just another web shop – checking the 
+correct display of added products 
+
+Prerequisites: 
+
+A properly configured computer connected to the Internet, an open home page https://skleptest.pl 
+by a non-logged-in user in Google Chrome 
+
+Steps to follow: 
+
+1. Scrolling down to the 'All Black Tops' under the red bar with 'Free Shipping', 'Call Us Anytime', 'Our 
+Location' 
+
+2. Elements 'All Black Tops' and 'High Heel Shoes' are visible 
+
+3. Select any 2 products from 'All Black Tops' and under each click on the red button 'Add To Cart' 
+
+4. After clicking 'Add To Cart' next to it appears a red button 'View cart' 
+
+5. Pressing the 'View cart' 
+
+Expected result: 
+
+The 'Cart' page is displayed with a full summary of the order, the possibility of increasing the number 
+of added products, entering a discount code, calculating the delivery price and going to the 'Proceed 
+To Checkout' payment 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ID: TC008 
+
+'Checkout' in the Generic Shop e-commerce app. Just another web shop – making a purchase by a 
+non-user account 
+
+Prerequisites: 
+
+Open 'Cart' page with a full summary of the order, the possibility of increasing the number of added 
+products, entering a discount code, calculating the delivery price and switching to the payment 
+'Proceed To Checkout' 
+
+Steps to follow: 
+
+1. Clicking on "Proceed To Checkout' 
+
+2. The 'Checkout' payment page is displayed with the following sections: 'Billing Details' and a form 
+to be filled in with the possibility of creating an account, 'Ship to a Different Address?' and a text 
+field, 'Your order' with a subsection summarizing the order and a Radio Button for payment from 
+among the following: 'Direct bank transfer', 'Check payments', 'Cash on delivery', 'PayPal' 
+
+3. Fill in all the required fields marked with a red asterisk and select the option 'Cash on delivery' and 
+click the red button 'Place Order' 
+
+Expected result: 
+
+An 'Order Received' order confirmation appears along with all necessary details such as order 
+number, date, payment method, etc. 
+
+ 
+
+
