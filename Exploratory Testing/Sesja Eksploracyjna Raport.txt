@@ -1,0 +1,113 @@
+#CEL oraz stopień jego realizacji:
+
+Przetestowanie strony internetowej: https://skleptest.pl
+
+--------------------------------------------------------------------------------------------------------
+#TESTER:
+
+Marcin Nienartowicz
+
+--------------------------------------------------------------------------------------------------------
+#START:
+
+15:00
+
+--------------------------------------------------------------------------------------------------------
+#CZAS TRWANIA:
+
+30 minut
+
+--------------------------------------------------------------------------------------------------------
+#ŚRODOWISKO:
+
+Przegladarka Google Chrome Version 109.0.5414.120(64-bit)
+
+--------------------------------------------------------------------------------------------------------
+#SYSTEM INFORMATION:
+
+Time of this report: 2/11/2023, 15:00:53
+             Machine name: DESKTOP-KQBCE1E
+               Machine Id: {530D737E-EFDE-4553-AD3B-96288EB433CF}
+         Operating System: Windows 10 Pro 64-bit (10.0, Build 19045) (19041.vb_release.191206-1406)
+                 Language: English (Regional Setting: English)
+      System Manufacturer: Hewlett-Packard
+             System Model: HP EliteBook 2560p
+                     BIOS: Default System BIOS (type: BIOS)
+                Processor: Intel(R) Core(TM) i7-2620M CPU @ 2.70GHz (4 CPUs), ~2.7GHz
+                   Memory: 8192MB RAM
+      Available OS Memory: 8102MB RAM
+                Page File: 12203MB used, 2564MB available
+              Windows Dir: C:\WINDOWS
+          DirectX Version: DirectX 12
+      DX Setup Parameters: Not found
+         User DPI Setting: 96 DPI (100 percent)
+       System DPI Setting: 96 DPI (100 percent)
+          DWM DPI Scaling: Disabled
+                 Miracast: Not Available
+Microsoft Graphics Hybrid: Not Supported
+ DirectX Database Version: 1.0.8
+           DxDiag Version: 10.00.19041.2075 64bit Unicode
+
+--------------------------------------------------------------------------------------------------------
+#OBSZAR:
+
+1. Wyswietlanie sie informacji o cookies
+2. Dostepnosc polityki prywatnosci
+3.Weryfikacja linkow
+4.Weryfikacja strony kontaktowej
+5, Zapis na Newsletter
+6. Strona Glowna - weryfikacja poszczegolnych elementow jak : tresc, obrazy, strzalek do przewijania, otwieranie sie podstron, pole wyszukiwania
+7. Rejetracja nowego uzytkowika
+8. Logowanie zarejetrowanego uzytkownika monitorowane przez Chrome Developer Tools
+
+
+--------------------------------------------------------------------------------------------------------
+#UWAGI:
+1. Na samym dole strony glownej pod 'About' tekst nie jest po angielsku -  Zalacznik 7
+2. Strony 'About Us' i 'Contact' pod sekcja 'Contact' tekst nie jest po angielsku - Zalacznik 9-> podpunkt 2
+3. Strony 'About Us' i 'Contact' - obok czerwonego guzika 'Send' - nie wiadomo skad 'wyrasta' nieaktywny, nieznany link - burzac zupelnie porzadek graficzny i odbior wizualny strony - Zalcznik 9-> podpunkt 4(?)
+4. 'Give Ua a Call' i 'Our Location' sa inne na stronach 'About Us' i 'Contact' i na stronie glownej https://skleptest.pl/ - Porownaj Zalacznik 9->podpunkt 3 z Zalacznikiem 10
+5. Podczas rejetracji nowego uzytkownika wyswietla sie informacja, ze haslo jest silne po 9 literze wyrazu pisanego malymi literami - nie wyswietlaja sie sugestie co do conajmniej 1 duzej litery, cyfry i znaku szczegolnego
+6. Walidacja prawidlowego logowania do aplikacji z perspektywy Chrome Developer Tools: poprzez widoczna metode POST (Zalacznik 12) oraz mozliwosc weryfikacji 'danych wrazliwych' logowania dzieki zakladce 'Payload' (Zalacznik 13)
+--------------------------------------------------------------------------------------------------------
+#DEFEKTY:
+1. Nie wyswietlaja sie informacje o plikach cookies
+2. Brak informacji o polityce prywatnosci
+3. Nie dziala link Theme:Tyche (https://colorlib.com/tyche) wyskakuje critical error - Zalacznik 1 i Zalacznik 1a
+4. Po nacisnieciu 'Shop Now' strona http://./product-category/most-wanted/ nie wyswietla sie - Zalacznik 2 i 2a
+5. Nacisniecie ikonki 'koperty' nie otwiera okna mailowego/kontaktowego,a jedynie dodaje '#' do linka strony glownej - Zalacznik 3
+6. Bedac na stronie glownej, kolor 'Shop' i 'Categories' jest czerwony, a po otwarciu 'Most Wanted' tylko jest na czerwono a pozostale podstrony sa biale - Zalacznik 4 i 4a
+7.'Categories' nie dziala sortowanie 'price:low to high/price:high to low' oraz napis 'Categories' po wybraniu jakiejkolwiek kategorii nie ma koloru czerwonego - Zalacznik 5
+8. Po nacisnieciu samego 'Categories' bez rozwijania listy - przensi do strony glownej i obydwie nazy podstron 'Shop', 'Categories' sa na czerwono - Zalacznik 6
+9. Nie dziala sekcja 'Newsletter' - pomimo wpisania aktywnego adresu email i komunikacie 'Succesfully Subscribed' - nie zostal wyslany mail powitalno-potwierdzajacy - Zalacznik 8
+10. Strony 'About Us' i 'Contact' obydwie prowadza pod ten sam adres (https://skleptest.pl/test-contact-blablabla/) i otwieraja formularz kontaktowy - Zalacznik 9 ->podpunkt 1
+11. Po nacisnieciu guzik 'Learn More' nie przenosi do sugerowanej strony informacyjno-instruktarzowej, tylko tam gdzie trony 'About Us' i 'Contact'  czyli https://skleptest.pl/test-contact-blablabla/ - Zalacznik 11 i Zalacznik 9-> podpunkt 1
+
+
+
+--------------------------------------------------------------------------------------------------------
+#ODKRYCIA:
+
+30 minutowa sesja to za malo aby przetestowac podstawowe elementy i wykonac testowa sciezke zakupowa
+
+--------------------------------------------------------------------------------------------------------
+#ZAŁACZNIKI:
+1. Zalacznik 1 - widok linku 'Theme:Tyhe' na stronie glownej
+2. Zalacznik 1a - error po otwarciu linka 'Theme:Tyhe'
+3. Zalacznik 2 - przycisk 'Shop Now'
+4. Zalacznik 2a - widok strony 'Shop Now' po nacisnieciu przycisku
+5. Zalacznik 3 - ikonka koperty do bezposredniego kontaktu
+6. Zalacznik 4 - czerwone 'Shop' i 'Categories'
+7. Zalacznik 4a - czerwone tylko 'Most Wanted'
+8. Zalacznik 5 - biale 'Categories' i funkcja sortowania
+9. Zalacznik 6 -   czerwone 'Shop' i 'Categories' - powrot do strony glownej
+10.Zalacznik 7 - nieprawidlowy jezyk tekstu
+11.Zalacznik 8 - 'Newsletter'
+12.Zalacznik 9 - 'About Us' i 'Contact' wraz z 4 podpunktami
+13.Zalacznik 10 - 'Call Us Anytime' i 'Our Location' na stronie glownej
+14.Zalacznik 11 - 'Learn More' 
+15.Zalacznik 12  - Podglad logowania metoda POST status code 302
+16.Zalacznik 13  - Podglad logowania 'Payload'
+
+
+--------------------------------------------------------------------------------------------------------
